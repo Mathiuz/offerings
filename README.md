@@ -48,3 +48,5 @@ v1.4 "Azathoth" - Checkpoints; Additional DNS Seeds; Graphical in-wallet mining 
 v1.5 "Hastur" - Checkpoints; Updated DNS Seeds; Graphical changes to wallet; Groundwork for Renewed Ritual scheduled for Autumnal Equinox - All Hallow's Eve 2015 in v1.6; In-wallet Ledger; New Splash-screen
 
 v1.6 "Bokrug" - Checkpoints; brings code up to 0.10.x level "Core;" will cut off old peers in 1.7 release.
+
+v1.7 "Tulzscha" - Checkpoints; updated to latest QuarkCORE base.
