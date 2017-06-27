@@ -1,47 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id_ID" version="2.1">
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <source>About Offerings Core</source>
-        <translation>Mengenai Offerings Core</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Offerings Core&lt;/b&gt; version</source>
-        <translation>versi &lt;b&gt;Offerings Core&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Software ini adalah yang bersifat percobaan.
-
-Dibagikan dengan izin software MIT/X11, bacalah arsip COPYING atau  http://www.opensource.org/licenses/mit-license.php.
-
-Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit OpenSSL (http://www.openssl.org/) dan software kriptografi dibangun oleh Eric Young (eay@cryptsoft.com) dan software UPnP dibangun oleh Thomas Bernard.</translation>
-    </message>
-    <message>
-        <source>Copyright</source>
-        <translation>Copyright</translation>
-    </message>
-    <message>
-        <source>The Offerings Core developers</source>
-        <translation>Pembangun Offerings Core</translation>
-    </message>
-    <message>
-        <source>(%1-bit)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+<TS language="id_ID" version="2.1">
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Klik-ganda untuk mengubah alamat atau label</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Buat alamat baru</translation>
@@ -103,11 +62,11 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Offerings addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Offerings.</translation>
+        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Quark.</translation>
     </message>
     <message>
-        <source>These are your Offerings addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -130,11 +89,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <source>Exporting Failed</source>
         <translation>Proses Ekspor Gagal</translation>
     </message>
-    <message>
-        <source>There was an error trying to save the address list to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -169,10 +124,6 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Ulangi kata kunci baru</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Masukkan kata kunci baru ke dompet.&lt;br/&gt;Mohon gunakan kata kunci dengan &lt;b&gt;10 karakter atau lebih dengan acak&lt;/b&gt;, atau &lt;b&gt;delapan kata atau lebih&lt;/b&gt;.</translation>
-    </message>
-    <message>
         <source>Encrypt wallet</source>
         <translation>Enkripsi dompet</translation>
     </message>
@@ -205,16 +156,12 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Konfirmasi enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OfferingsS&lt;/b&gt;!</source>
-        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH Offerings ANDA&lt;/B&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUARKS&lt;/b&gt;!</source>
+        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH QUARK ANDA&lt;/B&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Apakah kamu yakin ingin mengenkripsi dompet anda?</translation>
-    </message>
-    <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -225,8 +172,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Offerings will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Offeringss from being stolen by malware infecting your computer.</source>
-        <translation>Offerings akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi bitcoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
+        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi quark Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,10 +243,6 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Keluar dari aplikasi</translation>
     </message>
     <message>
-        <source>Show information about Offerings</source>
-        <translation>Tampilkan informasi mengenai Offerings</translation>
-    </message>
-    <message>
         <source>About &amp;Qt</source>
         <translation>Mengenai &amp;Qt</translation>
     </message>
@@ -310,10 +253,6 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Pilihan...</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>%Enkripsi Dompet...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -336,6 +275,10 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
+        <source>Quark Core client</source>
+        <translation>Client Quark Inti</translation>
+    </message>
+    <message>
         <source>Importing blocks from disk...</source>
         <translation>Blok-blok sedang di-impor dari disk</translation>
     </message>
@@ -344,12 +287,12 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Offerings address</source>
-        <translation>Kirim koin ke alamat Offerings</translation>
+        <source>Send coins to a Quark address</source>
+        <translation>Kirim koin ke alamat Quark</translation>
     </message>
     <message>
-        <source>Modify configuration options for Offerings</source>
-        <translation>Ubah pilihan konfigurasi untuk Offerings</translation>
+        <source>Modify configuration options for Quark</source>
+        <translation>Ubah pilihan konfigurasi untuk Quark</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +315,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Offerings</source>
-        <translation>Offerings</translation>
+        <source>Quark</source>
+        <translation>Quark</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -388,6 +331,10 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>&amp;Menerima</translation>
     </message>
     <message>
+        <source>Show information about Quark Core</source>
+        <translation>Tampilkan informasi tentang Quark Inti</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Sunjukkan / Menyembungi</translation>
     </message>
@@ -400,12 +347,12 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Offerings addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Offerings Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your Quark addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat Quark Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Offerings addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Offerings yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Quark yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,20 +371,16 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Quark Core</source>
+        <translation>Quark Core</translation>
     </message>
     <message>
-        <source>Offerings Core</source>
-        <translation>Offerings Core</translation>
+        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan quark: URIs)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Offerings: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan Offerings: URIs)</translation>
-    </message>
-    <message>
-        <source>&amp;About Offerings Core</source>
-        <translation>&amp;Mengenai Offerings Core</translation>
+        <source>&amp;About Quark Core</source>
+        <translation>&amp;Mengenai Quark Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,36 +391,24 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a Offerings: URI or payment request</source>
-        <translation>Buka URI Offerings: atau permintaan pembayaran</translation>
+        <source>Open a quark: URI or payment request</source>
+        <translation>Buka URI quark: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Offerings Core help message to get a list with possible Offerings command-line options</source>
-        <translation>Tampilkan pesan bantuan Offerings Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Offerings</translation>
-    </message>
-    <message>
-        <source>Offerings client</source>
-        <translation>Klien Offerings</translation>
+        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
+        <translation>Tampilkan pesan bantuan Quark Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Quark</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Offerings network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Offerings</numerusform></translation>
+        <source>%n active connection(s) to Quark network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan Quark</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Sumber blok tidak tersedia...</translation>
-    </message>
-    <message>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>Proses % 1 dar i% 2 (perkiraan) blok catatan transaksi</translation>
-    </message>
-    <message>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 blok-blok riwayat transaksi telah diproses</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -559,10 +490,6 @@ Alamat: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
-    <message>
-        <source>A fatal error occurred. Offerings can no longer continue safely and will quit.</source>
-        <translation>Terjadi kesalahan fatal. Offerings tidak bisa lagi meneruskan dengan aman dan akan berhenti.</translation>
-    </message>
 </context>
 <context>
     <name>ClientModel</name>
@@ -573,10 +500,6 @@ Alamat: %4
 </context>
 <context>
     <name>CoinControlDialog</name>
-    <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Pilihan alamat pengaturan koin</translation>
-    </message>
     <message>
         <source>Quantity:</source>
         <translation>Kuantitas:</translation>
@@ -596,10 +519,6 @@ Alamat: %4
     <message>
         <source>Fee:</source>
         <translation>Biaya:</translation>
-    </message>
-    <message>
-        <source>Low Output:</source>
-        <translation>Jumlah Yang Sedikit:</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -624,10 +543,6 @@ Alamat: %4
     <message>
         <source>Amount</source>
         <translation>Nilai</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Alamat</translation>
     </message>
     <message>
         <source>Date</source>
@@ -690,10 +605,6 @@ Alamat: %4
         <translation>Salin prioritas</translation>
     </message>
     <message>
-        <source>Copy low output</source>
-        <translation>Salin jumlah yang sedikit</translation>
-    </message>
-    <message>
         <source>Copy change</source>
         <translation>Salin uang kembali</translation>
     </message>
@@ -742,10 +653,6 @@ Alamat: %4
         <translation>tidak satupun</translation>
     </message>
     <message>
-        <source>Dust</source>
-        <translation>Debu</translation>
-    </message>
-    <message>
         <source>yes</source>
         <translation>ya</translation>
     </message>
@@ -770,24 +677,12 @@ Alamat: %4
         <translation>Makin penting transaksinya, makin kemungkinan akan termasuk dalam blok.</translation>
     </message>
     <message>
-        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
-        <translation>Label ini akan berubah merah, jika prioritas lebih kecil dari &quot;medium&quot;.</translation>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Label ini akan berubah merah, jika prioritas lebih kecil dari "medium".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>Label ini akan berubah merah, jika setiap penerima menerima nilai lebih kecil dari %1.</translation>
-    </message>
-    <message>
-        <source>This means a fee of at least %1 is required.</source>
-        <translation>Berarti perlu biaya lebih dari %1.</translation>
-    </message>
-    <message>
-        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
-        <translation>Nilai yang kurang dari 0.546 kali biaya pengiriman minimal akan ditampilkan sebagai debu.</translation>
-    </message>
-    <message>
-        <source>This label turns red, if the change is smaller than %1.</source>
-        <translation>Label ini akan berubah merah, jika perubahan itu lebih kecil dari %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -841,12 +736,12 @@ Alamat: %4
         <translation>Ubah alamat mengirim</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Alamat yang dimasukkan &quot;%1&quot; sudah ada di dalam buku alamat.</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Offerings address.</source>
-        <translation>Alamat yang dimasukkan &quot;%1&quot; bukan alamat Offerings yang benar.</translation>
+        <source>The entered address "%1" is not a valid Quark address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat Quark yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,16 +778,16 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Offerings Core - Command-line options</source>
-        <translation>Offerings Core - pilihan Perintah-baris</translation>
-    </message>
-    <message>
-        <source>Offerings Core</source>
-        <translation>Offerings Core</translation>
+        <source>Quark Core</source>
+        <translation>Quark Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versi</translation>
+    </message>
+    <message>
+        <source>About Quark Core</source>
+        <translation>Mengenai Quark Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -907,26 +802,18 @@ Alamat: %4
         <translation>pilihan UI</translation>
     </message>
     <message>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Atur bahasa, sebagai contoh &quot;id_ID&quot; (standar: system locale)</translation>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Atur bahasa, sebagai contoh "id_ID" (standar: system locale)</translation>
     </message>
     <message>
         <source>Start minimized</source>
         <translation>Memulai terminimalisi</translation>
     </message>
     <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Tampilkan layar pembuka saat nyala (standar: 1)</translation>
     </message>
-    <message>
-        <source>Choose data directory on startup (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -934,16 +821,8 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Offerings Core.</source>
-        <translation>Selamat Datang ke Offerings Core</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where Offerings Core will store its data.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Offerings Core will download and store a copy of the Offerings block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation type="unfinished"/>
+        <source>Welcome to Quark Core.</source>
+        <translation>Selamat Datang ke Quark Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,26 +833,18 @@ Alamat: %4
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Offerings</source>
-        <translation>Offerings</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
-        <translation>Gagal: Direktori untuk data &quot;%1&quot; tidak bisa dibuat.</translation>
+        <source>Quark Core</source>
+        <translation>Quark Core</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Gagal</translation>
     </message>
-    <message>
-        <source>GB of free space available</source>
-        <translation>GB di hard disk yang masih tersedia</translation>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB dari ruang yang tersedia</numerusform></translation>
     </message>
-    <message>
-        <source>(of %1GB needed)</source>
-        <translation>(dari %1GB yang diperlu)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1008,52 +879,24 @@ Alamat: %4
         <translation>&amp;Utama</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Biaya transaksi untuk setiap kB yang membantu transaksi Andi diproses cepat (biayanya opsional). Ukuran transaksi biasanya 1kB.</translation>
+        <source>Automatically start Quark after logging in to the system.</source>
+        <translation>Menyalakan Quark secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
     <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Bayar &amp;biaya transaksi</translation>
-    </message>
-    <message>
-        <source>Automatically start Offerings after logging in to the system.</source>
-        <translation>Menyalakan Offerings secara otomatis setelah masuk ke dalam sistem.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Offerings on system login</source>
-        <translation>&amp;Menyalakan Offerings pada login sistem</translation>
-    </message>
-    <message>
-        <source>Size of &amp;database cache</source>
-        <translation type="unfinished"/>
+        <source>&amp;Start Quark on system login</source>
+        <translation>&amp;Menyalakan Quark pada login sistem</translation>
     </message>
     <message>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Connect to the Offerings network through a SOCKS proxy.</source>
-        <translation>Menghubungkan jaringan Offerings lewat proxy SOCKS.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Hubungkan melalui proxy SOCKS (proxy biasa):</translation>
-    </message>
-    <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>Alamat IP proxy (cth. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Third party transaction URLs</source>
-        <translation type="unfinished"/>
+        <translation>Transaksi URLs pihak ketiga</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
@@ -1070,10 +913,6 @@ Alamat: %4
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Jaringan</translation>
-    </message>
-    <message>
-        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1096,8 +935,8 @@ Alamat: %4
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Offerings client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Offerings di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Quark di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1114,14 +953,6 @@ Alamat: %4
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Port proxy (cth. 9050)</translation>
-    </message>
-    <message>
-        <source>SOCKS &amp;Version:</source>
-        <translation>Versi &amp;SOCKS:</translation>
-    </message>
-    <message>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Versi proxy SOCKS (cth. 5)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1152,8 +983,8 @@ Alamat: %4
         <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Offerings.</source>
-        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Offerings.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
+        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Quark.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1162,14 +993,6 @@ Alamat: %4
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Pilihan standar unit yang ingin ditampilkan pada layar aplikasi dan saat mengirim koin.</translation>
-    </message>
-    <message>
-        <source>Whether to show Offerings addresses in the transaction list or not.</source>
-        <translation>Apakah menampilkan alamat-alamat Offerings dalam daftar transaksi atau tidak.</translation>
-    </message>
-    <message>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Tampilkan alamat dalam daftar transaksi</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1197,15 +1020,15 @@ Alamat: %4
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation type="unfinished"/>
+        <translation>Restart klien diperlukan untuk mengaktifkan perubahan.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation type="unfinished"/>
+        <translation>Klien akan dimatikan, apakah anda hendak melanjutkan?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation type="unfinished"/>
+        <translation>Perubahan ini akan memerlukan restart klien</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1219,12 +1042,8 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Offerings network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Offerings ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Dompet</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Quark ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1259,10 +1078,6 @@ Alamat: %4
         <translation>Jumlah saldo Anda sekarang</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transaksi sebelumnya&lt;/b&gt;</translation>
-    </message>
-    <message>
         <source>out of sync</source>
         <translation>tidak tersinkron</translation>
     </message>
@@ -1274,8 +1089,8 @@ Alamat: %4
         <translation>Penanganan URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Offerings address or malformed URI parameters.</source>
-        <translation>URI tidak bisa dimengerti! Biasanya oleh karena alamat Offerings yang tidak sah atau persoalan tentang parameter-parameter URI.</translation>
+        <source>Invalid payment address %1</source>
+        <translation>Alamat pembayaran salah %1</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1286,44 +1101,12 @@ Alamat: %4
         <translation>Gagalan permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Cannot start Offerings: click-to-pay handler</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Net manager warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
-        <translation>Proxy Anda tidak mendukung SOCKS5, yang diperlu untuk permintaan pembayaran melalui proxy.</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Refund from %1</source>
         <translation>Pembayaran kembali dari %1</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
         <translation>Masalah berkomunikasi dengan %1: %2</translation>
-    </message>
-    <message>
-        <source>Payment request can not be parsed or processed!</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1339,32 +1122,27 @@ Alamat: %4
     </message>
 </context>
 <context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
-        <source>Offerings</source>
-        <translation>Offerings</translation>
+        <source>Amount</source>
+        <translation>Nilai</translation>
     </message>
     <message>
-        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation>Gagal: Tidak ada direktori untuk data &quot;%1&quot;.</translation>
+        <source>%1 h</source>
+        <translation>%1 Jam</translation>
     </message>
     <message>
-        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Kesalahan: Tidak dapat memproses pengaturan berkas: %1. Hanya menggunakan kunci= nilai sintak.</translation>
+        <source>%1 m</source>
+        <translation>%1 menit</translation>
     </message>
     <message>
-        <source>Error: Invalid combination of -regtest and -testnet.</source>
-        <translation>Gagal: Gabungan -regtest dan -testnet salah</translation>
+        <source>N/A</source>
+        <translation>T/S</translation>
     </message>
-    <message>
-        <source>Offerings Core didn&apos;t yet exit safely...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter a Offerings address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Masukkan alamat Offerings (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1439,10 +1217,6 @@ Alamat: %4
         <translation>Jumlah blok terkini</translation>
     </message>
     <message>
-        <source>Estimated total blocks</source>
-        <translation>Perkiraan jumlah blok</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Waktu blok terakhir</translation>
     </message>
@@ -1483,16 +1257,16 @@ Alamat: %4
         <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <source>Open the Offerings debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Buka berkas catatan debug Offerings dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
+        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Buka berkas catatan debug Quark dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Offerings RPC console.</source>
-        <translation>Selamat datang ke konsol RPC Offerings.</translation>
+        <source>Welcome to the Quark RPC console.</source>
+        <translation>Selamat datang ke konsol RPC Quark.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1518,19 +1292,7 @@ Alamat: %4
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 menit</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 Jam</translation>
-    </message>
-    <message>
-        <source>%1 h %2 m</source>
-        <translation>%1 Jam %2 menit</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1546,16 +1308,8 @@ Alamat: %4
         <translation>&amp;Pesan:</translation>
     </message>
     <message>
-        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Offerings network.</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1743,10 +1497,6 @@ Alamat: %4
         <translation>Biaya:</translation>
     </message>
     <message>
-        <source>Low Output:</source>
-        <translation>Jumlah Yang Sedikit:</translation>
-    </message>
-    <message>
         <source>After Fee:</source>
         <translation>Dengan Biaya:</translation>
     </message>
@@ -1773,10 +1523,6 @@ Alamat: %4
     <message>
         <source>Clear all fields of the form.</source>
         <translation>Hapus informasi dari form.</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Hapus %Semua</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -1823,16 +1569,8 @@ Alamat: %4
         <translation>Salin prioritas</translation>
     </message>
     <message>
-        <source>Copy low output</source>
-        <translation>Salin jumlah yang sedikit</translation>
-    </message>
-    <message>
         <source>Copy change</source>
         <translation>Salin uang kembali</translation>
-    </message>
-    <message>
-        <source>Total Amount %1 (= %2)</source>
-        <translation>Jumlah Nilai %1 (= %2)</translation>
     </message>
     <message>
         <source>or</source>
@@ -1867,16 +1605,12 @@ Alamat: %4
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Offerings address</source>
-        <translation>Awas: Alamat Offerings tidak sah</translation>
+        <source>Warning: Invalid Quark address</source>
+        <translation>Awas: Alamat Quark tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1885,14 +1619,6 @@ Alamat: %4
     <message>
         <source>added as transaction fee</source>
         <translation>ditambahkan sebagai biaya transaksi</translation>
-    </message>
-    <message>
-        <source>Payment request expired</source>
-        <translation>Permintaan pembayaran telah kadaluarsa</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>Alamat pembayaran salah %1</translation>
     </message>
 </context>
 <context>
@@ -1904,10 +1630,6 @@ Alamat: %4
     <message>
         <source>Pay &amp;To:</source>
         <translation>Kirim &amp;Ke:</translation>
-    </message>
-    <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Alamat pembayaran (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1923,7 +1645,7 @@ Alamat: %4
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation type="unfinished"/>
+        <translation>Ini adalah pembayaran normal</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1939,7 +1661,7 @@ Alamat: %4
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation type="unfinished"/>
+        <translation>Hapus masukan ini</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1952,10 +1674,6 @@ Alamat: %4
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Masukkan label untuk alamat ini untuk dimasukan dalam daftar alamat yang pernah digunakan</translation>
-    </message>
-    <message>
-        <source>A message that was attached to the Offerings: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Offerings network.</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1973,8 +1691,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Offerings Core is shutting down...</source>
-        <translation>Offerings Core sementara dimatikan...</translation>
+        <source>Quark Core is shutting down...</source>
+        <translation>Quark Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1990,14 +1708,6 @@ Alamat: %4
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Tandakan Pesan</translation>
-    </message>
-    <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Alamat yang akan ditandai pesan (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2028,8 +1738,8 @@ Alamat: %4
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Offerings address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Offerings ini</translation>
+        <source>Sign the message to prove you own this Quark address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Quark ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2040,24 +1750,8 @@ Alamat: %4
         <translation>Hapus semua bidang penanda pesan</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Hapus %Semua</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifikasi Pesan</translation>
-    </message>
-    <message>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Offerings address</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,12 +1762,8 @@ Alamat: %4
         <translation>Hapus semua bidang verifikasi pesan</translation>
     </message>
     <message>
-        <source>Enter a Offerings address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Masukkan alamat Offerings (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
-    </message>
-    <message>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"/>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Tekan "Tandatangan Pesan" untuk menghasilan tanda tangan</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2127,12 +1817,12 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Offerings Core</source>
-        <translation>Offerings Core</translation>
+        <source>Quark Core</source>
+        <translation>Quark Core</translation>
     </message>
     <message>
-        <source>The Offerings Core developers</source>
-        <translation>Pembangun Offerings Core</translation>
+        <source>The Quark Core developers</source>
+        <translation>Pembangun Quark Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2245,10 +1935,6 @@ Alamat: %4
         <translation>Pedagang</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Debug information</source>
         <translation>Informasi debug</translation>
     </message>
@@ -2309,10 +1995,6 @@ Alamat: %4
     <message>
         <source>Address</source>
         <translation>Alamat</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Nilai</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
@@ -2490,10 +2172,6 @@ Alamat: %4
         <translation>Proses Ekspor Gagal</translation>
     </message>
     <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Exporting Successful</source>
         <translation>Proses Ekspor Berhasil</translation>
     </message>
@@ -2526,10 +2204,6 @@ Alamat: %4
         <translation>Alamat</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Nilai</translation>
-    </message>
-    <message>
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -2542,6 +2216,9 @@ Alamat: %4
         <translation>ke</translation>
     </message>
 </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
 <context>
     <name>WalletFrame</name>
     <message>
@@ -2579,10 +2256,6 @@ Alamat: %4
         <translation>Cadangkgan Gagal</translation>
     </message>
     <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>Informasi dalam dompet berhasil disimpan di %1.</translation>
     </message>
@@ -2594,40 +2267,12 @@ Alamat: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Penggunaan:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Daftar perintah</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Dapatkan bantuan untuk perintah</translation>
-    </message>
-    <message>
         <source>Options:</source>
         <translation>Pilihan:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: Offerings.conf)</source>
-        <translation>Tentukan berkas konfigurasi (standar: Offerings.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: Offeringsd.pid)</source>
-        <translation>Tentukan berkas pid (standar: Offeringsd.pid)</translation>
-    </message>
-    <message>
         <source>Specify data directory</source>
         <translation>Tentukan direktori data</translation>
-    </message>
-    <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Menerima hubungan pada &lt;port&gt; (standar: 8333 atau testnet: 18333)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Mengatur hubungan paling banyak &lt;n&gt; ke peer (standar: 125)</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
@@ -2638,28 +2283,8 @@ Alamat: %4
         <translation>Tentukan alamat publik Anda sendiri</translation>
     </message>
     <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Batas untuk memutuskan peer buruk (standar: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Jumlah kedua untuk menjaga peer buruk dari hubung-ulang (standar: 86400)</translation>
-    </message>
-    <message>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Menerima perintah baris perintah dan JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Offerings Core RPC client version</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2674,103 +2299,16 @@ Alamat: %4
         <translation>Terima hubungan dari luar (standar: 1 kalau -proxy atau -connect tidak dipilih)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=Offeringsrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@foo.com
-</source>
-        <translation>
-</translation>
-    </message>
-    <message>
-        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Sandi yang diterima (biasanya: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
-    </message>
-    <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Offerings Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Offerings Core sudah mulai.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
-        <translation>Gunakanlah proxy SOCKS5 yang tersendiri supaya menghubungkan peer dengan layanan tersembunyi Tor (biasanya: -proxy)</translation>
+        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Quark Core sudah mulai.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Peringatan: -paytxfee sangat besar! Ini adalah biaya pengiriman yang akan dibayar oleh Anda jika transaksi terkirim.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Offerings will not work properly.</source>
-        <translation>Perhatian: Mohon diperiksa pengaturan tanggal dan waktu komputer anda apakah sudah benar! Jika pengaturan waktu salah aplikasi Offerings tidak akan berjalan dengan tepat.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2785,48 +2323,20 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Awas: wallet.dat tidak bisa dibaca! Berhasil periksakan kunci-kunci dalam arsipnya, tetapi ada kemungkinan informasi tentang transaksi atau isi-isi buku alamat salah atau terhilang.</translation>
     </message>
     <message>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>(default: 1)</source>
         <translation>(pengaturan awal: 1)</translation>
-    </message>
-    <message>
-        <source>(default: wallet.dat)</source>
-        <translation>(pengaturan awal: wallet.dat)</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Coba memulihkan kunci-kunci pribadi dari wallet.dat yang rusak</translation>
     </message>
     <message>
-        <source>Offerings Core Daemon</source>
-        <translation>Daemon Offerings Core</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Pilihan pembuatan blok:</translation>
     </message>
     <message>
-        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Jangan menghubungkan node(-node) selain yang di daftar</translation>
-    </message>
-    <message>
-        <source>Connect through SOCKS proxy</source>
-        <translation>Hubungkan melalui proxy SOCKS</translation>
-    </message>
-    <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Connection options:</source>
@@ -2837,20 +2347,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Menemukan database blok yang rusak </translation>
     </message>
     <message>
-        <source>Debugging/Testing options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Disable safemode, override a real safe mode event (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Cari alamat IP Anda sendiri (biasanya: 1 saat mendengarkan dan -externalip tidak terpilih)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation type="unfinished"/>
+        <translation>Jangan memuat dompet dan menonaktifkan panggilan dompet RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -2877,86 +2379,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Gagal: Hard disk hampir terisi!</translation>
     </message>
     <message>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Gagal: Dompet terkunci, transaksi tidak bisa dibuat!</translation>
-    </message>
-    <message>
-        <source>Error: system error: </source>
-        <translation>Error: system error:</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to read block info</source>
-        <translation>Gagal membaca informasi dari blok</translation>
-    </message>
-    <message>
-        <source>Failed to read block</source>
-        <translation>Gagal membaca blok</translation>
-    </message>
-    <message>
-        <source>Failed to sync block index</source>
-        <translation>Gagal menyamakan daftar isi blok</translation>
-    </message>
-    <message>
-        <source>Failed to write block index</source>
-        <translation>Gagal menulis daftar isi blok</translation>
-    </message>
-    <message>
-        <source>Failed to write block info</source>
-        <translation>Gagal menulis info blok</translation>
-    </message>
-    <message>
-        <source>Failed to write block</source>
-        <translation>Gagal menulis blok</translation>
-    </message>
-    <message>
-        <source>Failed to write file info</source>
-        <translation>Gagal menulis info arsip</translation>
-    </message>
-    <message>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to write transaction index</source>
-        <translation>Gagal menulis daftar isi transaksi</translation>
-    </message>
-    <message>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Fee per kB to add to transactions you send</source>
-        <translation>Biaya untuk setiap kB yang akan ditambahkan ke transaksi yang Anda kirim</translation>
-    </message>
-    <message>
-        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Cari peer dengan daftar alamat DNS (biasanya: 1 jika -connect tidak terpilih)</translation>
-    </message>
-    <message>
-        <source>Force safe mode (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Generate coins (default: 0)</source>
-        <translation>Buatlah koin (biasanya: 0)</translation>
-    </message>
-    <message>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Periksakan berapa blok waktu mulai (biasanya: 288, 0 = setiapnya)</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Importing...</source>
         <translation>mengimpor...</translation>
     </message>
@@ -2965,56 +2387,20 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Tidak bisa cari blok pertama, atau blok pertama salah. Salah direktori untuk jaringan?</translation>
     </message>
     <message>
-        <source>Invalid -onion address: &apos;%s&apos;</source>
-        <translation>Alamat -onion salah: &apos;%s&apos;</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Alamat -onion salah: '%s'</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Deskripsi berkas tidak tersedia dengan cukup.</translation>
     </message>
     <message>
-        <source>Prepend debug output with timestamp (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>RPC client options:</source>
-        <translation>Pilihan RPC klien:</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
-        <translation>Pililah versi SOCKS untuk -proxy (4 atau 5, biasanya: 5)</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Atur ukuran maksimal untuk blok dalam byte (biasanya: %d)</translation>
     </message>
     <message>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Mengatur jumlah urutan untuk layanan panggilan RPC (pengaturan awal: 4)</translation>
-    </message>
-    <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Tentukan arsip dompet (dalam direktori data)</translation>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
-        <translation>Perubahan saldo untuk transaksi yang belum dikonfirmasi setelah transaksi terkirim (default: 1)</translation>
-    </message>
-    <message>
-        <source>This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Usage (deprecated, use Offerings-cli):</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3025,20 +2411,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Dompet sedang diverifikasi...</translation>
     </message>
     <message>
-        <source>Wait for RPC server to start</source>
-        <translation>Tunggu sampai server RPC dimulai</translation>
-    </message>
-    <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Dompet %s ada diluar direktori data %s</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation type="unfinished"/>
+        <translation>Opsi dompet:</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
@@ -3049,116 +2427,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Offerings Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Offerings Core sudah mulai.</translation>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation type="unfinished"/>
+        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Quark Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informasi</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nilai yang salah untuk -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nilai yang salah untuk -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nilai yang salah untuk -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Jaga daftar transaksi yang lengkap (biasanya: 0)</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Dilarang menghubungkan node-node selain &lt;net&gt; (IPv4, IPv6 atau Tor)</translation>
-    </message>
-    <message>
-        <source>Print block on startup, if found in block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Print block tree on startup (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Offerings Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nilai yang salah untuk -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Run a thread to flush wallet periodically (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>SSL options: (see the Offerings Wiki for SSL setup instructions)</source>
-        <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam Offerings Wiki)</translation>
-    </message>
-    <message>
-        <source>Send command to Offerings Core</source>
-        <translation type="unfinished"/>
+        <translation>Opsi server RPC:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Kirim info jejak/debug ke konsol bukan berkas debug.log</translation>
-    </message>
-    <message>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Atur ukuran minimal untuk blok dalam byte (standar: 0)</translation>
-    </message>
-    <message>
-        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show benchmark information (default: 0)</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -3167,18 +2457,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
     <message>
         <source>Signing transaction failed</source>
         <translation>Tandatangani transaksi tergagal</translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Menetapkan waktu berakhir koneksi di milidetik (biasanya: 5000)</translation>
-    </message>
-    <message>
-        <source>Start Offerings Core Daemon</source>
-        <translation>Memulai Offerings Core Daemon</translation>
-    </message>
-    <message>
-        <source>System error: </source>
-        <translation>Kesalahan sistem:</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3191,14 +2469,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
     <message>
         <source>Transaction too large</source>
         <translation>Transaksi terlalu besar</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -3214,15 +2484,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Setiap transaksi dalam dompet sedang di-&apos;Zap&apos;...</translation>
-    </message>
-    <message>
-        <source>on startup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>version</source>
-        <translation>versi</translation>
+        <translation>Setiap transaksi dalam dompet sedang di-'Zap'...</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -3233,24 +2495,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Kata sandi untuk hubungan JSON-RPC</translation>
     </message>
     <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Izinkan hubungan JSON-RPC dari alamat IP yang ditentukan</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Kirim perintah ke node berjalan pada &lt;ip&gt; (standar: 127.0.0.1)</translation>
-    </message>
-    <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Menjalankan perintah ketika perubahan blok terbaik (%s dalam cmd digantikan oleh hash blok)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
         <translation>Perbarui dompet ke format terbaru</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Kirim ukuran kolam kunci ke &lt;n&gt; (standar: 100)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
@@ -3261,20 +2511,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Gunakan OpenSSL (https) untuk hubungan JSON-RPC</translation>
     </message>
     <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Berkas sertifikat server (standar: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Kunci pribadi server (standar: server.pem)</translation>
-    </message>
-    <message>
         <source>This help message</source>
         <translation>Pesan bantuan ini</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Tidak dapat mengikat ke %s dengan komputer ini (ikatan gagal %d, %s)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3289,44 +2527,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Offerings</source>
-        <translation>Gagal memuat wallet.dat: Dompet memerlukan versi Offerings yang terbaru</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Offerings to complete</source>
-        <translation>Dompet diperlukan untuk disimpan-ulang: nyala-ulangkan Offerings untuk menyelesaikan</translation>
-    </message>
-    <message>
         <source>Error loading wallet.dat</source>
         <translation>Gagal memuat wallet.dat</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Alamat -proxy salah: &apos;%s&apos;</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Alamat -proxy salah: '%s'</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: &apos;%s&apos;</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: '%s'</translation>
     </message>
     <message>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Diminta versi proxy -socks tidak diketahui: %i</translation>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Tidak dapat menyelesaikan alamat -bind: '%s'</translation>
     </message>
     <message>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Tidak dapat menyelesaikan alamat -bind: &apos;%s&apos;</translation>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Tidak dapat menyelesaikan alamat -externalip: '%s'</translation>
     </message>
     <message>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Tidak dapat menyelesaikan alamat -externalip: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nilai salah untuk -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Nilai salah</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nilai salah untuk -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3361,20 +2583,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Offerings Alert&quot; admin@fo
         <translation>Memuat selesai</translation>
     </message>
     <message>
-        <source>To use the %s option</source>
-        <translation>Gunakan pilihan %s</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Gagal</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Anda harus mengatur rpcpassword=&lt;kata sandi&gt; dalam berkas konfigurasi:
-%s
-Jika berkas tidak ada, buatlah dengan permisi berkas hanya-dapat-dibaca-oleh-pemilik.</translation>
     </message>
 </context>
 </TS>
